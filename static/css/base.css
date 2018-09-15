@@ -1,5 +1,6 @@
 body {
   padding-top: 30px;
+  /* Adds 5%vw grey border left&right */
   border-left: 5vw solid lightgrey;
   border-right: 5vw solid lightgrey;
 }
@@ -9,6 +10,7 @@ body {
 }
 
 .indexContainer {
+  /* Stops text overlap on body border */
   margin: 2rem;
 }
 
