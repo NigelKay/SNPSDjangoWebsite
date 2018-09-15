@@ -5,7 +5,8 @@ body {
   border-right: 5vw solid lightgrey;
 }
 
-.indexText .aboutText{
+.indexText .aboutText {
+  font-family: 'Rubik', sans-serif;
   font-size: 2vw;
 }
 
@@ -42,6 +43,7 @@ body {
 
 .navbar-brand {
   font-family: 'Questrial', sans-serif;
+  font-size: 22px;
 }
 
 .navbar-link {
