@@ -1,10 +1,20 @@
 body {
   padding-top: 30px;
+  border-left: 5vw solid lightgrey;
+  border-right: 5vw solid lightgrey;
+}
+
+.indexText {
+  font-size: 2vw;
+}
+
+.indexContainer {
+  margin: 2rem;
 }
 
 .headers {
   font-family: 'Michroma', sans-serif;
-  font-size: 5rem;
+  font-size: 3vw;
   text-align: center;
 }
 
@@ -19,7 +29,7 @@ body {
 .iframe-container{
     position: relative;
     width: 50%;
-    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+    padding-bottom: 56.25%;
 }
 .iframe-container > *{
     display: block;
