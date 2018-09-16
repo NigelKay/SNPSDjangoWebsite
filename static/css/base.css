@@ -96,3 +96,13 @@ body {
 .navbar-default .navbar-nav > li > a:focus {
     color: #abbad8;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2870e2;
+  color: white;
+  text-align: center;
+}
