@@ -1,9 +1,17 @@
 body {
   padding-top: 1vh;
-  /* Adds 5%vw grey border left&right */
-  border-left: 5vw solid lightgrey;
-  border-right: 5vw solid lightgrey;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
+
+#left, #right {
+	background: lightgrey;
+	position: fixed;
+  top: 0; bottom: 0;
+  width: 5vw;
+	}
+	#left { left: 0; }
+	#right { right: 0; }
 
 .aboutText {
   font-family: 'Rubik', sans-serif;
