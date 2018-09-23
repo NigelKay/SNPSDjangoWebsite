@@ -119,3 +119,16 @@ body {
   color: white;
   text-align: center;
 }
+
+.lightboxContainer {
+  margin: 10px 50px;
+}
+
+.lightboxContainer img {
+  width: 20vw;
+  padding: 10px;
+}
+
+.lightboxContainer img:hover {
+  transform: scale(1.1);
+}

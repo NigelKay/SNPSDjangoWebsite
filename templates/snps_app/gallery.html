@@ -1,10 +1,41 @@
 {% extends "snps_app/base.html" %}
 {% block body_block %}
 {% load staticfiles %}
+
 <div class="galleryContainer">
   <div class="row">
     <div class="col-sm-12">
       <h1 class="page-header headers">Gallery</h1>
+    </div>
+  </div>
+</div>
+
+<div class="lightboxContainer">
+  <div class="row">
+
+    <div class="col-sm-3 col-xs-6 galleryImg">
+      <a href="{% static 'images/g1.jpg' %}" data-lightbox="mygallery"><img src="{% static 'images/g1.jpg' %}"></a>
+    </div>
+    <div class="col-sm-3 col-xs-6 galleryImg">
+      <a href="{% static 'images/g2.jpg' %}" data-lightbox="mygallery"><img src="{% static 'images/g2.jpg' %}"></a>
+    </div>
+    <div class="col-sm-3 col-xs-6 galleryImg">
+      <a href="{% static 'images/g3.jpg' %}" data-lightbox="mygallery"><img src="{% static 'images/g3.jpg' %}"></a>
+    </div>
+    <div class="col-sm-3 col-xs-6 galleryImg">
+      <a href="{% static 'images/g4.jpg' %}" data-lightbox="mygallery"><img src="{% static 'images/g4.jpg' %}"></a>
+    </div>
+    <div class="col-sm-3 col-xs-6 galleryImg">
+      <a href="{% static 'images/g5.jpg' %}" data-lightbox="mygallery"><img src="{% static 'images/g5.jpg' %}"></a>
+    </div>
+    <div class="col-sm-3 col-xs-6 galleryImg">
+      <a href="{% static 'images/g6.jpg' %}" data-lightbox="mygallery"><img src="{% static 'images/g6.jpg' %}"></a>
+    </div>
+    <div class="col-sm-3 col-xs-6 galleryImg">
+      <a href="{% static 'images/g7.jpg' %}" data-lightbox="mygallery"><img src="{% static 'images/g7.jpg' %}"></a>
+    </div>
+    <div class="col-sm-3 col-xs-6 galleryImg">
+      <a href="{% static 'images/g8.jpg' %}" data-lightbox="mygallery"><img src="{% static 'images/g8.jpg' %}"></a>
     </div>
   </div>
 </div>
