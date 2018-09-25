@@ -125,10 +125,10 @@ body {
 }
 
 .lightboxContainer img {
-  width: 20vw;
+  width: 21vw;
   padding: 10px;
 }
 
 .lightboxContainer img:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
