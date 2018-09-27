@@ -133,6 +133,9 @@ body {
   transform: scale(1.02);
 }
 
+
+
+
 .staffDetailsContainer {
   padding-top: 1vw;
   padding-left: 2vw;
@@ -144,16 +147,12 @@ body {
 }
 
 .staffName {
-  width: 12vw;
-}
-
-.staffDetails {
-  width: auto;
+  width: 13vw;
 }
 
 @media (max-width: 999px) {
   .staffDetailsContainer img {
-    width: 10vw;
+    width: 13vw;
   }
 }
 
@@ -163,6 +162,11 @@ body {
   }
   .staffName {
     width: 50vw;
+  }
+  .staffDetailsContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
   }
 }
 
