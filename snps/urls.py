@@ -24,4 +24,5 @@ urlpatterns = [
     path('findus/',views.FindUsView.as_view(),name='findus'),
     path('gallery/',views.GalleryView.as_view(),name='gallery'),
     path('staff/',views.StaffView.as_view(),name='staff'),
+    path('policies/',views.PoliciesView.as_view(),name='policies'),
 ]

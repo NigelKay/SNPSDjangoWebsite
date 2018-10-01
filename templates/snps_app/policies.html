@@ -1,0 +1,24 @@
+{% extends "snps_app/base.html" %}
+{% block body_block %}
+{% load staticfiles %}
+<div class="aboutUsContainer">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h1 class="page-header headers">Policies</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 imageContainer">
+      <img src="{% static 'images/outside_building.jpg' %}" class="img-responsive" alt="">
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      <div class="policyText">
+        <p>Follow our rules plz</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <p class="footerText">"Children make good progress. Staff know children well and regularly assess and plan for their individual development."<small> <i>- Ofsted 2016</i> </small></p>
+</div>
+{% endblock %}

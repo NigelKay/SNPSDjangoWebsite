@@ -17,3 +17,6 @@ class GalleryView(TemplateView):
 
 class StaffView(TemplateView):
     template_name = 'snps_app/staff.html'
+
+class PoliciesView(TemplateView):
+    template_name = 'snps_app/policies.html'
