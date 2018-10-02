@@ -23,6 +23,11 @@ body {
   font-size: 2.5vh;
 }
 
+.staffIntro {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5vh;
+}
+
 .indexContainer {
   /* Stops text overlap on body border */
   margin: 2rem;
@@ -148,7 +153,14 @@ body {
 }
 
 .staffName {
+  font-family: 'Rubik', sans-serif;
   width: 13vw;
+}
+
+.staff-desc {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2vh;
+  list-style:none;
 }
 
 @media (max-width: 999px) {
@@ -178,4 +190,8 @@ body {
   .staffName {
     width: 70vw;
   }
+}
+
+timesList {
+  list-style: none;
 }
