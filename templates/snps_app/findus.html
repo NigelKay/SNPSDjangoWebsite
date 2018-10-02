@@ -1,5 +1,6 @@
 {% extends "snps_app/base.html" %}
 {% block body_block %}
+{% load staticfiles %}
 <div class="findUsContainer">
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -12,26 +13,13 @@
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
       <div class="location-text-container">
-        <ul>
-          <li>St Nicholas Pre-School</li>
-          <li>St Nicholas Church Hall</li>
-          <li>Broadway</li>
-          <li>Southbourne</li>
-          <li>Bournemouth</li>
-          <li>BH6 4EP</li>
-        </ul>
+        <p><b>St Nicholas Pre-School<br />St Nicholas Church Hall<br />Broadway<br />Southbourne<br />Bournemouth<br />BH6 4EP</b></p>
+        <hr>
+        <p>We are open only during term times.<br />Please click <a href="{% static 'files/termdates.pdf' %}" target="_blank">here</a> to see our term dates.</p>
         <br>
-        <p>We are open term times</p>
-        <ul class="timesList">
-          <li>Monday: 09:00 - 13:00</li>
-          <li>Tuesday: 09:00 - 13:00</li>
-          <li>Wednesday: 09:00 - 13:00</li>
-          <li>Thursday AM: 09:00 - 12:00</li>
-          <li>Thursday PM**: 13:00 - 16:00</li>
-          <li>Friday: 09:00 - 13:00</li>
-        </ul>
+        <p>Monday: 09:00 - 13:00<br />Tuesday: 09:00 - 13:00<br />Wednesday: 09:00 - 13:00<br />Thursday AM: 09:00 - 12:00<br />Thursday PM**: 13:00 - 16:00<br />Friday: 09:00 - 13:00</p>
+        <p><small>** Only for children due to start school in the next year.</small></p>
         <br>
-        <p>Please click here to see our term dates.</p>
       </div>
     </div>
   </div>
