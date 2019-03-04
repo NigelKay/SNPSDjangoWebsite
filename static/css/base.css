@@ -14,6 +14,10 @@ body {
 	#left { left: 0; }
 	#right { right: 0; }
 
+.icon-bar {
+  background-color:white !important;
+}
+
 .aboutText {
   font-family: 'Rubik', sans-serif;
   font-size: 2.5vh;
@@ -80,6 +84,11 @@ body {
 
 .navbar-link {
   font-family: 'Questrial', sans-serif;
+  font-size: 1.2vw;
+}
+
+.emailLink {
+  color: black;
 }
 
 .iframe-container{
@@ -142,6 +151,10 @@ body {
   text-align: center;
 }
 
+.footerText {
+    font-size: 2vh;
+}
+
 .lightboxContainer {
   margin: 10px 50px;
   margin-top: -2vh;
@@ -178,32 +191,84 @@ body {
   list-style:none;
 }
 
-@media (max-width: 999px) {
+/* Mobile view (990)*/
+@media (max-width: 990px) {
   .staffDetailsContainer img {
-    width: 13vw;
-  }
-}
-
-@media (max-width: 767px) {
-  .staffDetailsContainer img {
-    width: 50vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    width: 40vw;
   }
   .staffName {
-    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    font-size: 2vw;
   }
   .staffDetailsContainer {
     margin-left: auto;
     margin-right: auto;
     width: 70vw;
   }
+  .staff-desc {
+    font-size: 1.75vw;
+  }
+  .indexText, .aboutText, .policyText, .iframe-container {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  .iframe-container {
+    width: 100%;
+    margin-top: 0vh;
+    margin-bottom: -8vh;
+  }
+  .navbar-link {
+  font-family: 'Questrial', sans-serif;
+  font-size: 2vw;
+  }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 670px) {
   .staffDetailsContainer img {
+    margin-left: auto;
+    margin-right: auto;
     width: 70vw;
   }
   .staffName {
+    margin-left: auto;
+    margin-right: auto;
     width: 70vw;
+    font-size: 3vw;
+  }
+  .staffDetailsContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+  }
+  .staff-desc {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .staffDetailsContainer img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+  }
+  .staffName {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    font-size: 16px;
+  }
+  .staffDetailsContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+  }
+  .staff-desc {
+    font-size: 12px;
   }
 }
 
